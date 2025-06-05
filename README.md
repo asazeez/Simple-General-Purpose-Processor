@@ -1,6 +1,7 @@
 # Simple General Purpose Processor
 This lab was completed for COE 328 (Digital Systems) course.
 
+## Function
 The general-purpose processing unit (GPU) consists of a storage unit, control unit and the
 Arithmetic Logic Unit (ALU). The GPU takes two 8-bit input values, A and B, which in this lab
 were (25)16 and (95)16 respectively.
@@ -19,4 +20,11 @@ depends on the microcode it received from the control unit. The ALU is the compo
 performs the arithmetic operations on the A and B inputs based on the OP signal. After the
 arithmetic operation is performed, the result is displayed on two seven segment displays.
 
+## Components
+The designed components are:
+- Two D latches  
+- Moore Machine  
+- 4-to-16 Decoder  
+- ALU (Arithmetic Logic Unit) capable of performing nine operations
+- 
 All the components were written in VHDL using Quartus. Three different iterations of the ALU were designed. For each ALU, the block diagam was constructed and the results were verified using the waveform simulation.
